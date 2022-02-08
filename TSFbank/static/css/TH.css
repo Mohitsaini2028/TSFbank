@@ -1,0 +1,147 @@
+body{
+    background-color: #272343;
+}
+/* navbar */
+.logo{
+    width: 4%;
+    margin-right: 10px;
+  }
+  
+  .navbar {
+    transition: all 0.4s;
+    
+  }
+  
+  .navbar .navbar-brand {
+    color:white;
+  }
+  
+  .navbar .nav-link {
+    color: #fff;
+  }
+  
+  /* Change navbar styling on scroll */
+  .navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus {
+    color:gray;
+    text-decoration: none;
+    
+  }
+  
+  .navbar.active .nav-link {
+    color: #555;
+  }
+  
+  .navbar.active .nav-link:hover,
+  .navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .navbar.active .navbar-brand {
+    color: #555;
+  }
+  
+  /* Change navbar styling on small viewports */
+  @media (max-width: 991.98px) {
+    .navbar {
+        background-color: #fff;
+    }
+  
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+  }
+  
+  .thead{
+    color: #000;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-top: 120px;
+    margin-bottom: 40px;
+	text-shadow: 2px 2px 20px darkgrey;  
+}
+
+
+.trans{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-weight: bold;
+	color:whitesmoke;
+	transition: 0.5s;
+}
+
+.trans form input{
+    padding: 10px;
+    margin-left: 60px;
+    width: 250px;
+    border-width: 0px 0px 0.2px 0px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.trans form .sub{
+	margin: 50px 0 0 10px;
+	padding: 10px;
+    width: 150px;
+    border-width: 0;
+    border-radius: 2px;
+    /* background: skyblue; */
+    background: #fe9a00;
+    font-weight: bold;
+    cursor: pointer;
+}
+.trans form .sub:hover{
+	background: darkgrey;
+	transition: 0.8s;
+}
+.account button{
+	background: red;
+	color: white;
+	padding: 5px;
+	border-width: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.account button:hover{
+    background: darkred;
+    transition: 0.6s;
+}
+
+  .account{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main-account{
+    margin: 0 0 50px 0;
+  }
+  .main-account h1{
+      color: #000;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-shadow: 2px 2px 20px darkgrey;  
+    margin: 100px 0 30px 0;
+  }
+  .account table{
+    margin-top: 20px;
+  }
+  .account th,td{
+    padding: 3px 10px;
+  }
+  .account th{
+    background: #000;
+    color: #fff;
+  }
+  .account td{
+    /* background: skyblue; */
+    background: #fe9a00;
+  }

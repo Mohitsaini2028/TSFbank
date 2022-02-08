@@ -1,0 +1,171 @@
+/* logo */
+.logo{
+    width: 4%;
+    margin-right: 13px;
+}
+
+/* navbar */
+.navbar{
+    font-size: 20px;
+}
+
+/* header */
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFua2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1171&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead .text-center{
+    color: white;
+}
+
+.masthead .text-center h1,p{
+    font-size: 50px;
+}
+
+/* contact form */
+.contact{
+    padding: 5%;
+    height: 600px;
+    padding-top: 1.5%;
+}
+.col-md-3{
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: black;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+
+.control-label{
+    color:white;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+@media (max-width:767px) {
+    .contact {
+        padding: 20px 0;
+    }
+  }
+
+  @media (max-width:767px) {
+    .contact row {
+        padding: 30px
+    }
+  }
+
+/* about us */
+
+.about-us{
+    background:white;
+  }
+
+  .about-container{
+    padding: 80px 200px;
+    font-size: 15px;
+  }
+
+  .about-container h1,p{
+    text-align: center;
+    padding:10px 50px;
+  }
+
+  .about-container p{
+      font-size: 15px;
+  }
+
+  /* Services */
+
+
+
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+  .service-7 {
+    font-family: "Montserrat", sans-serif;
+      color: #8d97ad;
+    font-weight: 300;
+    background-color: rgb(228, 226, 226);
+  }
+
+  .service-7 h1, .service-7 h2, .service-7 h3, .service-7 h4, .service-7 h5, .service-7 h6 {
+    color: #3e4555;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .service-7 .font-weight-bold {
+      font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .service-7 a {
+      text-decoration: none;
+  }
+
+  .service-7 .linking {
+      color: #3e4555;
+  }
+
+  .service-7 .linking:hover {
+      color: #316ce8;
+  }
+
+  .service-7 .subtitle {
+      color: #8d97ad;
+      line-height: 24px;
+  }
+
+  .service-7 .btn-info-gradiant {
+        background: #188ef4;
+      background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+      background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+      background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+      background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+  }
+
+  .service-7 .btn-info-gradiant:hover {
+        background: #316ce8;
+      background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+      background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+      background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+      background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+  }
+
+  .service-7 .btn-md {
+      padding: 15px 45px;
+      font-size: 16px;
+  }
+
+  .img-fluid{
+    width: 60%;
+    margin-left: 75px;
+  }
