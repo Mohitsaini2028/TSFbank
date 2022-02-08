@@ -19,6 +19,11 @@
     background-repeat: no-repeat;
 }
 
+.contact{
+    background-color: #f6f5f4;
+    height: 833px;
+}
+
 .masthead .text-center{
     color: white;
 }
@@ -28,11 +33,11 @@
 }
 
 /* contact form */
-.contact{
+/* .contact{
     padding: 5%;
     height: 600px;
     padding-top: 1.5%;
-}
+} */
 .col-md-3{
     background: #ff9b00;
     padding: 4%;
@@ -82,7 +87,9 @@
   }
 
 /* about us */
-
+.about{
+font-size: 15px;
+}
 .about-us{
     background:white;
   }
@@ -169,3 +176,4 @@
     width: 60%;
     margin-left: 75px;
   }
+
